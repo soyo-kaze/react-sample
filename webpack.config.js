@@ -18,7 +18,7 @@ module.exports = {
     },
     plugins:[new Htmlplug(
             {
-                template:'./App.html'
+                template:'./index.html'
             }
         )
     ]
