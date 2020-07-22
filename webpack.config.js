@@ -13,12 +13,12 @@ module.exports = {
     },
     output:{
         filename: "build.js",
-        path:__dirname+ "/dist"
+        path:__dirname+ "/Build"
         
     },
     plugins:[new Htmlplug(
             {
-                template:'./index.html'
+                template:'./App.html'
             }
         )
     ]
